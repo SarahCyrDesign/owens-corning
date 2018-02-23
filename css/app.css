@@ -1,0 +1,37 @@
+/* GLOBAL STYLES */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* HERO AREA */
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+h2, nav#top-menu.top-bar a {
+  text-transform: uppercase;
+}
+
+
+
+/* NAVIGATION */
+
+nav#top-menu{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+nav#top-menu.top-bar a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+nav.top-bar, nav#top-menu.top-bar a, nav#top-menu {
+  background-color: #7f7f7f;
+}
