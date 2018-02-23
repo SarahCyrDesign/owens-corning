@@ -3,7 +3,25 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+h2, nav#top-menu.top-bar a {
+  text-transform: uppercase;
+}
+
+h1, h2, h3, p, nav#top-menu.top-bar a {
+  color: #ffffff;
+}
+
+
 /* HERO AREA */
+.hero {
+  background: url(../img/house-hi-res.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.lower-hero {
+  background: rgba(0, 0, 0, 0.7);
+}
 
 h1 {
   font-weight: 900;
@@ -14,10 +32,10 @@ h2 {
   font-weight: 700;
 }
 
-h2, nav#top-menu.top-bar a {
-  text-transform: uppercase;
+h3 {
+  font-size: 1.2em;
+  font-weight: 700;
 }
-
 
 
 /* NAVIGATION */
@@ -28,7 +46,6 @@ nav#top-menu{
   height: 60px;
 }
 nav#top-menu.top-bar a {
-  color: #ffffff;
   font-weight: 700;
 }
 
