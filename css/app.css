@@ -239,7 +239,7 @@ a:hover .hvr-pop {
 @media only screen and (max-width: 1280px) {
 
     .pink-panther img {
-       left: 135px;
+       left: 60px;
        top: 620px;
     }
 }
@@ -261,6 +261,10 @@ a:hover .hvr-pop {
        left: 10px;
        top: 830px;
     }
+
+    .footer-grid {
+      margin-top: 100px;
+    }
 }
 
 
@@ -281,5 +285,16 @@ a:hover .hvr-pop {
 
   .lower-hero-height {
    padding-bottom: 200px;
+  }
+
+  .footer-grid {
+    margin-top: 200px;
+  }
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .footer-grid {
+    margin-top: 300px;
   }
 }
