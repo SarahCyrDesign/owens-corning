@@ -59,14 +59,13 @@ p {
   background: transparent;
   color: grey;
   border-radius: 3px;
-  padding-top: 10px;
-  text-align: center;
-  height:2%;
   max-width: 200px;
+  height: 20px;
 
 }
-.btn-right-p {
+.btn-right p {
     font-size: 1.2em;
+    line-height: 1px;
 }
 
 .fi-telephone {
@@ -163,6 +162,8 @@ nav#top-menu {
 
 nav#top-menu.top-bar a {
   font-weight: 700;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 
@@ -242,6 +243,10 @@ a:hover .hvr-pop {
     left: 50px;
   }
 
+  nav#top-menu.top-bar a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
   .middle-lower-hero {
     margin-top:10px;
