@@ -78,6 +78,11 @@ p {
 }
 
 
+.phone-area, .right-logo, .lower-right-btn{
+    text-align: center;
+    justify-content: center;
+}
+
 
 /* HERO AREA */
 
@@ -96,6 +101,10 @@ p {
     align-content: center;
     align-items: center;
     justify-content: center;
+}
+
+.middle-lower-hero {
+  margin-top:20px;
 }
 
 
@@ -227,15 +236,14 @@ a:hover .hvr-pop {
 
 @media only screen and (max-width: 1024px) {
 
-  nav#top-menu.top-bar a {
-    padding-left:50px;
-    padding-right: 50px;
-  }
-
   .pink-panther img {
     left: 50px;
   }
 
+
+  .middle-lower-hero {
+    margin-top:10px;
+  }
 }
 
 
@@ -255,15 +263,15 @@ a:hover .hvr-pop {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 820px) {
+@media only screen and (min-width: 751px) and (max-width: 850px) {
 
     .footer-grid {
-      margin-top: 100px;
+      margin-top: 40px;
     }
 
     .pink-panther img {
       left: 30px;
-      top: -2px;
+      top: 14px;
       max-width: 160px;
     }
 
@@ -290,12 +298,28 @@ a:hover .hvr-pop {
     }
 
   .lower-hero-height {
-   padding-bottom: 200px;
+   height: 200px;
   }
 
-  .footer-grid {
-    margin-top: 200px;
+  .lower-hero {
+    position: relative;
+    top: 30px;
   }
+
+.middle-lower-hero {
+  position: relative;
+  top: -75px;
+}
+
+  .learn-info {
+    position: relative;
+    top: -50px;
+  }
+
+  .contact-info {
+    position:relative;
+    top: -32px;
+ }
 
   .main-tagline {
     font-size: 2em;
@@ -303,13 +327,21 @@ a:hover .hvr-pop {
 
   .subheadline {
     font-size: 1em;
+  }
+
+  .lower-right-btn {
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    left:20px;
   }
 }
 
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
+
   .footer-grid {
-    margin-top: 300px;
+    margin-top: 50px;
   }
 
   .main-tagline {
@@ -318,6 +350,22 @@ a:hover .hvr-pop {
 
   .subheadline {
     font-size: 1em;
+  }
+
+  .learn-info, .contact-info, .lower-right-btn {
+    text-align: center;
+  }
+
+  span.wrap {
+    white-space: nowrap;
+    line-height: 30px;
+  }
+
+  .lower-right-btn {
+    position: relative;
+    z-index: 2;
+    top: -130px;
+    left: 170px;
   }
 
 }
