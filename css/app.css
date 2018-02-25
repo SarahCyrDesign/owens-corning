@@ -61,7 +61,7 @@ p {
   border-radius: 3px;
   padding-top: 10px;
   text-align: center;
-  height:25%;
+  height:2%;
   max-width: 200px;
 
 }
@@ -74,13 +74,15 @@ p {
 }
 
 .right-logo {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 
-.phone-area, .right-logo, .lower-right-btn{
+
+.logo-left, .phone-area, .right-logo, .lower-right-btn, div.callout.btn-right{
     text-align: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 
@@ -256,7 +258,7 @@ a:hover .hvr-pop {
     max-width: 180px;
   }
 
-  .phone-area, .right-logo, .lower-right-btn {
+  .phone-area, .right-logo, .lower-right-btn, .logo-left {
       text-align: center;
       justify-content: center;
   }
@@ -275,7 +277,7 @@ a:hover .hvr-pop {
       max-width: 160px;
     }
 
-    .phone-area, .right-logo, .lower-right-btn {
+    .phone-area, .right-logo, .lower-right-btn, .logo-left {
         text-align: center;
         justify-content: center;
     }
@@ -288,7 +290,7 @@ a:hover .hvr-pop {
   .pink-panther img {
     visibility: hidden;
   }
-    .phone-area, .right-logo, .lower-right-btn {
+    .phone-area, .right-logo, .lower-right-btn, .logo-left {
         text-align: center;
         justify-content: center;
     }
@@ -352,7 +354,7 @@ a:hover .hvr-pop {
     font-size: 1em;
   }
 
-  .learn-info, .contact-info, .lower-right-btn {
+  .learn-info, .contact-info, .lower-right-btn, .logo-left {
     text-align: center;
   }
 
