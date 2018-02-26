@@ -11,17 +11,13 @@ body {
 p {
   font-size: 1.2em;
   line-height:15px;
-
 }
 
 
 .align-center {
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   align-items: center;
-  justify-content: center;
-
 }
 
 .white-txt, nav#top-menu.top-bar a, .footer-sq a {
@@ -80,9 +76,9 @@ p {
 
 
 .logo-left, .phone-area, .right-logo, .lower-right-btn, div.callout.btn-right{
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 
@@ -100,9 +96,9 @@ p {
 }
 
 .lower-hero .large-12 cell {
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .middle-lower-hero {
@@ -126,7 +122,7 @@ p {
 
 .subheadline {
   font-size: 1.7em;
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .main-tagline, .subheadline {
@@ -135,7 +131,6 @@ p {
 
 h3 {
   font-size: 1.5em;
-
 }
 
 .subheadline, h3 {
@@ -150,7 +145,6 @@ h3 {
 
 a.callout {
   font-weight: 900;
-  font-family: 'Lato', sans-serif;
 }
 
 a.callout:hover {
@@ -170,7 +164,6 @@ nav#top-menu.top-bar a {
   padding-left: 50px;
   padding-right: 50px;
 }
-
 
 nav.top-bar, nav#top-menu.top-bar a, nav#top-menu, .footer-sq, ul.dropdown.vertical.horizontal.menu, #top-menu, .title-bar {
   background-color: #7f7f7f;
@@ -200,6 +193,7 @@ nav.top-bar, nav#top-menu.top-bar a, nav#top-menu, .footer-sq, ul.dropdown.verti
 
 
 /* Pop */
+
 @-webkit-keyframes hvr-pop {
   50% {
     -webkit-transform: scale(1.2);
@@ -256,7 +250,6 @@ a:hover .hvr-pop {
   .middle-lower-hero {
     margin-top:10px;
   }
-
 }
 
 
@@ -268,32 +261,32 @@ a:hover .hvr-pop {
     top: 3px;
     max-width: 180px;
   }
-
 }
 
 
 @media only screen and (min-width: 751px) and (max-width: 890px) {
 
-    .footer-grid {
-      margin-top: 40px;
-    }
+  .footer-grid {
+    margin-top: 40px;
+  }
 
-    .main-tagline {
-      font-size: 3.8em;
-    }
+  .main-tagline {
+    font-size: 3.8em;
+  }
 
-    .subheadline {
-      font-size: 1.4em;
-    }
-    .pink-panther img {
-      left: 30px;
-      top: 14px;
-      max-width: 170px;
-    }
+  .subheadline {
+    font-size: 1.4em;
+  }
 
-    .contact-info {
-      font-size: 1em;
-    }
+  .pink-panther img {
+    left: 30px;
+    top: 14px;
+    max-width: 170px;
+  }
+
+  .contact-info {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -302,26 +295,24 @@ a:hover .hvr-pop {
   }
 }
 
- @media only screen and (min-width: 641) and (max-width: 750px) {
 
- .lower-hero {
-    position: relative;
-    top: 30px;
+ @media only screen and (min-width: 641px) and (max-width: 750px) {
+
+  .lower-hero-height {
+    height: 100px;
   }
-
-.middle-lower-hero {
-  position: relative;
-  top: -75px;
-}
 
   .learn-info {
     position: relative;
     top: 10px;
+    left: -70px;
+    font-size: 1.2em;
   }
 
   .contact-info {
     position:relative;
     top: 32px;
+    left: -70px;
     font-size: 1.1em;
  }
 
@@ -333,26 +324,23 @@ a:hover .hvr-pop {
     font-size: 1.2em;
   }
 
-  .logo-left {
-    text-align: center;
-  }
 
   .learn-info, .contact-info, .lower-right-btn, .logo-left {
     text-align: center;
   }
 
-  .learn-info {
-    font-size: 1.2em;
+  .lower-right-btn {
+    position: absolute;
+    top: 750px;
+    left: 470px;
   }
 
-  /* .lower-right-btn-container{
-    position: relative;
-    top: -10px;
-    text-align: center;
-    z-index: 2;
-  } */
-
+  span.wrap {
+    white-space: nowrap;
+    line-height: 30px;
+  }
 }
+
 
 
 @media only screen and (min-width: 451px) and (max-width: 640px) {
@@ -369,7 +357,7 @@ a:hover .hvr-pop {
     font-size: 1em;
   }
 
-  .learn-info, .contact-info, .lower-right-btn, .logo-left {
+  .learn-info, .contact-info, .lower-right-btn, .logo-left, .lower-right-btn-container {
     text-align: center;
   }
 
@@ -387,10 +375,10 @@ a:hover .hvr-pop {
     top: 30px;
   }
 
-.middle-lower-hero {
-  position: relative;
-  top: -75px;
-}
+  .middle-lower-hero {
+    position: relative;
+    top: -75px;
+  }
 
   .learn-info {
     position: relative;
@@ -400,19 +388,17 @@ a:hover .hvr-pop {
   .contact-info {
     position:relative;
     top: -60px;
- }
+  }
 
  .lower-right-btn-container{
    position: relative;
    top: -150px;
-   text-align: center;
  }
 
   span.wrap {
     white-space: nowrap;
     line-height: 30px;
   }
-
 }
 
 
@@ -429,7 +415,7 @@ a:hover .hvr-pop {
     font-size: 1em;
   }
 
-  .learn-info, .contact-info, .lower-right-btn, .logo-left {
+  .learn-info, .contact-info, .lower-right-btn, .logo-left, .lower-right-btn-container {
     text-align: center;
   }
 
@@ -449,8 +435,8 @@ a:hover .hvr-pop {
   }
 
   .middle-lower-hero {
-  position: relative;
-  top: -75px;
+    position: relative;
+    top: -75px;
   }
 
   .learn-info {
@@ -466,12 +452,10 @@ a:hover .hvr-pop {
   .lower-right-btn-container{
     position: relative;
     top: -170px;
-    text-align: center;
   }
 
   span.wrap {
     white-space: nowrap;
     line-height: 30px;
   }
-
 }
