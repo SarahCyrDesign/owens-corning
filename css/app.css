@@ -53,6 +53,7 @@ p {
   border-radius: 3px;
   height: 100px;
   padding-top: 30px;
+  max-width: 250px;;
 }
 
 .btn-right {
@@ -150,6 +151,10 @@ h3 {
 a.callout {
   font-weight: 900;
   font-family: 'Lato', sans-serif;
+}
+
+a.callout:hover {
+  color: lightblue;
 }
 
 /* NAVIGATION */
@@ -251,11 +256,12 @@ a:hover .hvr-pop {
   .middle-lower-hero {
     margin-top:10px;
   }
+
 }
 
 
 
-@media only screen and (max-width: 980px) {
+@media only screen and (min-width: 891px) and (max-width 1023px){
 
   .pink-panther img {
     left: 30px;
@@ -263,49 +269,117 @@ a:hover .hvr-pop {
     max-width: 180px;
   }
 
-  .phone-area, .right-logo, .lower-right-btn, .logo-left {
-      text-align: center;
-      justify-content: center;
-  }
 }
 
 
-@media only screen and (min-width: 751px) and (max-width: 850px) {
+@media only screen and (min-width: 751px) and (max-width: 890px) {
 
     .footer-grid {
       margin-top: 40px;
     }
 
+    .main-tagline {
+      font-size: 3.8em;
+    }
+
+    .subheadline {
+      font-size: 1.4em;
+    }
     .pink-panther img {
       left: 30px;
       top: 14px;
-      max-width: 160px;
+      max-width: 170px;
     }
 
-    .phone-area, .right-logo, .lower-right-btn, .logo-left {
-        text-align: center;
-        justify-content: center;
+    .contact-info {
+      font-size: 1em;
     }
 }
 
-
-
 @media only screen and (max-width: 750px) {
-
   .pink-panther img {
     visibility: hidden;
   }
-    .phone-area, .right-logo, .lower-right-btn, .logo-left {
-        text-align: center;
-        justify-content: center;
-    }
+}
 
-    .hero {
-      padding-bottom: 50px;
-    }
+ @media only screen and (min-width: 641) and (max-width: 750px) {
+
+ .lower-hero {
+    position: relative;
+    top: 30px;
+  }
+
+.middle-lower-hero {
+  position: relative;
+  top: -75px;
+}
+
+  .learn-info {
+    position: relative;
+    top: 10px;
+  }
+
+  .contact-info {
+    position:relative;
+    top: 32px;
+    font-size: 1.1em;
+ }
+
+  .main-tagline {
+    font-size: 3em;
+  }
+
+  .subheadline {
+    font-size: 1.2em;
+  }
+
+  .logo-left {
+    text-align: center;
+  }
+
+  .learn-info, .contact-info, .lower-right-btn, .logo-left {
+    text-align: center;
+  }
+
+  .learn-info {
+    font-size: 1.2em;
+  }
+
+  /* .lower-right-btn-container{
+    position: relative;
+    top: -10px;
+    text-align: center;
+    z-index: 2;
+  } */
+
+}
+
+
+@media only screen and (min-width: 451px) and (max-width: 640px) {
+
+  .footer-grid {
+    margin-top: 50px;
+  }
+
+  .main-tagline {
+    font-size: 2.5em;
+  }
+
+  .subheadline {
+    font-size: 1em;
+  }
+
+  .learn-info, .contact-info, .lower-right-btn, .logo-left {
+    text-align: center;
+  }
+
+  .hero-height {
+    height: 500px;
+    padding-bottom: 30px;
+  }
 
   .lower-hero-height {
-   height: 200px;
+     height: 180px;
   }
 
   .lower-hero {
@@ -320,39 +394,35 @@ a:hover .hvr-pop {
 
   .learn-info {
     position: relative;
-    top: -50px;
+    top: -70px;
   }
 
   .contact-info {
     position:relative;
-    top: -32px;
+    top: -60px;
  }
 
-  .main-tagline {
-    font-size: 2em;
+ .lower-right-btn-container{
+   position: relative;
+   top: -150px;
+   text-align: center;
+ }
+
+  span.wrap {
+    white-space: nowrap;
+    line-height: 30px;
   }
 
-  .subheadline {
-    font-size: 1em;
-  }
-
-  .lower-right-btn {
-    position: relative;
-    z-index: 2;
-    top: 20px;
-    left:20px;
-  }
 }
 
 
-@media only screen and (min-width: 300px) and (max-width: 600px) {
-
+@media only screen and (min-width: 300px) and (max-width: 450px) {
   .footer-grid {
     margin-top: 50px;
   }
 
   .main-tagline {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   .subheadline {
@@ -363,16 +433,45 @@ a:hover .hvr-pop {
     text-align: center;
   }
 
+  .hero-height {
+    height: 550px;
+    padding-bottom: 50px;
+  }
+
+  .lower-hero-height {
+   height: 200px;
+  }
+
+  .lower-hero {
+    position: relative;
+    top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .middle-lower-hero {
+  position: relative;
+  top: -75px;
+  }
+
+  .learn-info {
+    position: relative;
+    top: -70px;
+  }
+
+  .contact-info {
+    position:relative;
+    top: -70px;
+  }
+
+  .lower-right-btn-container{
+    position: relative;
+    top: -170px;
+    text-align: center;
+  }
+
   span.wrap {
     white-space: nowrap;
     line-height: 30px;
-  }
-
-  .lower-right-btn {
-    position: relative;
-    z-index: 2;
-    top: -130px;
-    left: 170px;
   }
 
 }
